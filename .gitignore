@@ -6,6 +6,8 @@ __pycache__/
 .words
 .txt
 .zip
+/Lab1/MEN
+/Lab1/SimLex-999
 
 # C extensions
 *.so
