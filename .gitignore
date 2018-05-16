@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+/Lab2/Data
+/Lab2/Text
 .words
 .txt
 .zip
