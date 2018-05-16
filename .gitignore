@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+/Lab1/Data
 /Lab2/Data
 /Lab2/Text
 .words
