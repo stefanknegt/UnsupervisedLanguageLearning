@@ -10,8 +10,6 @@ import time
 from random import shuffle
 import torch.optim as optim
 
-
-
 class Skipgram(nn.Module):
 
     #Inspiration taken from: https://github.com/fanglanting/skip-gram-pytorch
@@ -41,7 +39,7 @@ class Skipgram(nn.Module):
 
     def forward_pass(self,pos_c,pos_n,neg_n,batch_size):
         #Make a forward pass and determine the loss
-        
+
         embed_u = self.W1(pos_c)
         embed_v = self.W2(pos_n)
 

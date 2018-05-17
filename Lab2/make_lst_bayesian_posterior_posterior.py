@@ -46,9 +46,9 @@ for line in gold:
     gold_dict[line.split('::')[0]] = line.split('::')[1].split(';')
 
 #Load word embeddings (dict)
-with open('Models/bayesian_skipgram_context_embeddings_5epochs.pickle', 'rb') as handle:
+with open('Models/bayesian_skipgram_context_embeddings_new2.pickle', 'rb') as handle:
     context_embedding_dict = pickle.load(handle)
-with open('Models/bayesian_skipgram_context_mu_sigma_5epochs.pickle', 'rb') as handle:
+with open('Models/bayesian_skipgram_context_mu_sigma_new2.pickle', 'rb') as handle:
     context_weights = pickle.load(handle)
     mu_context_weights, mu_context_bias, sigma_context_weights, sigma_context_bias = context_weights[0], context_weights[1], context_weights[2], context_weights[3]
 
