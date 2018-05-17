@@ -11,9 +11,8 @@ from random import shuffle
 import torch.optim as optim
 
 class Skipgram(nn.Module):
-
     #Inspiration taken from: https://github.com/fanglanting/skip-gram-pytorch
-
+    
     def __init__(self,embedding_dim,vocab_size,batch_size):
         super(Skipgram, self).__init__()
         self.emb_dim = embedding_dim
