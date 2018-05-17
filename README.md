@@ -1,4 +1,4 @@
-# UnsupervisedLanguageLearning
+# Unsupervised Language Learning
 Code for the ULL course at UvA 17/18
 
 ## Instructions for running the code of Lab1
