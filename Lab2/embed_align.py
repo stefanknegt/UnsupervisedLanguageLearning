@@ -89,7 +89,7 @@ def aer_score(embedding_dims, L1_embedding_weights, mu_weights, sigma_weights, m
             if max(scores) == 0: #if we are not sure, let us append the same index
                 align_dict[k].append((L1_idx + 1, L2_idx + 1))
             else:
-                align_dict[k].append((L1_idx + 1, np.argmax(L2_scores) + 1))
+                align_dict[k].append((L1_idx + 1, np.argmax(scores) + 1))
     #save in the right format
     with open('naacl_files/output_aer.naacl', 'w') as f:
         for k, score_list in align_dict.items():
