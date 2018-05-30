@@ -13,3 +13,7 @@ As explained in the report we use different methods to construct our output to t
 
 ### Extra files
 Preprocess.py is used by all models to construct the vocabulary and training pairs. The file find_most_similar_words.py uses cosine similarity to find similar words using the trained embeddings and was solely used to test the obtained embeddings.
+
+## Instructions for running the code of Lab3
+### Training the skipgram model
+The skipgram model can be trained by running the train_skipgram.py file. This generates a .bin model file which can be used in combination with the Gensim package.
