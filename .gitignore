@@ -10,6 +10,12 @@ __pycache__/
 .zip
 /Lab1/MEN
 /Lab1/SimLex-999
+/Lab3/dgm4nlp
+/Lab3/embedalign-master
+/Lab3/hansards
+/Lab3/Paper
+/Lab3/results
+/Lab3/SentEval
 
 # C extensions
 *.so
