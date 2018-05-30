@@ -17,3 +17,6 @@ Preprocess.py is used by all models to construct the vocabulary and training pai
 ## Instructions for running the code of Lab3
 ### Training the skipgram model
 The skipgram model can be trained by running the train_skipgram.py file. This generates a .bin model file which can be used in combination with the Gensim package.
+
+### Testing the models using SentEval
+Open the iPython notebooks and run them to obtain the results and save them using pickle. In order to use the word probabilities, you can use the get_word_probabilities function defined in the skipgram notebook. This will store a pickle file on your disk with all the probabilities. We assume that the hansards and SentEval folders are in the same directory as the notebook.
